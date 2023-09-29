@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+* {
+    margin: 0;
+    background-color: brown;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+ }
+
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+ 
+.cards-content {
+      width: 90%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      row-gap: 20px;
+      column-gap: 40px;
+}
+ 
+.cards {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: red;
+    font-size: 17px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ 
+.cards:hover {
+    transform: scale(1.00);
+}
+ 
+.banner-1 {
+    background-image: url('./nume1.jfif');
+ }
+ 
+.banner-2 {
+    background-image: url('');
+}
+ 
+.banner-3 {
+    background-image: url('');
+}
+ 
+.banner-4 {
+     background-image: url('');
+}
+ 
+.banner-5 {
+     background-image: url('./a6.jfif');
+}
+ 
+.banner-6 {
+     background-image: url('./a7.jfif');
+}
+
+.banner-7 {
+    background-image: url('./bate1.jfif');
+}
+ 
+ 
+ 
+footer {
+    height: 300px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+ 
+span {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ 
+.footer-navigation {
+    display: none;
+}
+ 
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+ 
+    nav {
+        display: none;
+    }
+    #banner {
+        background-position: 40%;
+    }
+ 
+    #trailer-container {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+ 
+    .Trailer {
+        width: 100%;
+    }
+ 
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+ 
+    .description {
+        width: 100%;
+    }
+ 
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+ 
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+ 
+    }
+}
+ 
+ 
+ 
+ 
+ 
+ 
